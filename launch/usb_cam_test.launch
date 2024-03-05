@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find usb_cam)/launch/usb_cam.launch" />
+    <node name="usb_cam_test" pkg="usb_cam_test" type="usb_cam_test" output="screen" />
+</launch>
+  
