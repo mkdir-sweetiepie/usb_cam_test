@@ -18,5 +18,5 @@ catkin_make
 
 ### How to use 
 ```
-roslaunch realsense_test realsense_test.launch 
+roslaunch usb_cam_test usb_cam_test.launch 
 ```
